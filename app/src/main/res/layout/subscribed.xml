@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/shrine_pink_50"
+    tools:context=".SubscribedActivity">
+
+    <TextView
+        android:id="@+id/sub_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/shrine_pink_50"
+        android:gravity="center"
+        android:text="Subscribed to Experiments"
+        android:textColor="@color/gradStart"
+        android:textSize="30dp"
+        android:textStyle="bold"></TextView>
+
+    <ListView
+        android:id="@+id/sub_exp_list"
+        android:layout_width="match_parent"
+        android:layout_height="627dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginBottom="55dp"
+        android:background="@color/white"
+        android:cacheColorHint="@color/white"></ListView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+

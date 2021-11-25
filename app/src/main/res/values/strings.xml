@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">Quantify</string>
+    <string name="left_side_menu">left side menu</string>
+    <string name="content_description_menu">left side menu</string>
+    <string name="search">search</string>
+    <string name="content_description_search">onClick opens search text</string>
+    <string name="user">user</string>
+    <string name="content_description_user">onClick open user profile</string>
+    <string name="more" />
+    <string name="content_description_more" />
+    <string name="tab_my_experiment">My Experiments</string>
+    <string name="tab_all_experiment">All Experiments</string>
+    <string name="location" />
+    <string name="content_description_location" />
+    <string name="question" />
+    <string name="content_description_question" />
+    <string name="qr_code" />
+    <string name="content_description_qr_code" />
+    <string name="bottomAppBar" />
+    <string name="supporting_text" />
+    <string name="secondary_text" />
+    <string name="title" />
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_1">action_1</string>
+    <string name="action_2">action_2</string>
+    <string name="userid_text">UserID:</string>
+    <string name="region_text">Region:</string>
+    <string name="minimum_number_of_trials_text">Minimum number of trials:</string>
+    <string name="experiment_description_view">Experiment Description</string>
+    <string name="userid_view">userID</string>
+    <string name="region_view">regions</string>
+    <string name="trialNumber">trial_number_view</string>
+    <string name="generate_qr_code_button">Generate QR code</string>
+    <string name="binomialDescriptionText">This is a binomial trial, click Success or Fail button to add one succession or failure to your trial.</string>
+    <string name="countDescriptionText">This is a count-based trial, click the plus or minus button to modify your count.</string>
+    <string name="nonNegativeCountDescriptionText">This is a non-negative-count-based trial, click the plus or minus button to modify your count. However, the count number will not below zero.</string>
+    <string name="measurementDescriptionText">This is a measurement trial, record your observed decimal number in the text box below.</string>
+    <string name="save">Save</string>
+    <string name="success">Success</string>
+    <string name="number_of_successions">Number of successions:</string>
+    <string name="fail">Fail</string>
+    <string name="number_of_failures">Number of failures:</string>
+    <string name="space" />
+    <string name="plus_sign">+</string>
+    <string name="minus_sign">-</string>
+    <string name="enter_your_number_in_decimal">Enter your number in decimal</string>
+    <string name="zero">0</string>
+
+    <string name="UniqueUsername">username</string>
+    <string name="title_activity_show_user_profile">ShowUserProfile</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="todo">TODO</string>
+    <string name="item">Item</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="subscribe" />
+    <string name="quartiles_text">Quartiles:</string>
+    <string name="location_text">Location:</string>
+    <string name="createhistogram">Create Histogram</string>
+    <string name="resultsOverTime">Results Over Time</string>
+    <string name="start_button">Start</string>
+    <string name="location_view">Enter location</string>
+    <string name="quartile_one">Q1</string>
+    <string name="quartile_one_view">quartile_one_view</string>
+    <string name="quartile_two_view">quartile_two_view</string>
+    <string name="quartile_two">Q2</string>
+    <string name="MedianText">Median:</string>
+    <string name="meanText">Mean:</string>
+    <string name="std_dev_text">Std. Dev:</string>
+    <string name="save_button">Save</string>
+    <string name="question_button">Questions</string>
+    <string name="mean_view">mean_value</string>
+    <string name="median_value">median_value</string>
+    <string name="std_dev_value">std_dev_value</string>
+    <string name="count_text">Count:</string>
+    <string name="success_text">Success:</string>
+    <string name="fail_text">Fail:</string>
+    <string name="success_view">success_view_number</string>
+    <string name="fail_view">fail_view_number</string>
+    <string name="experiment_text">Experiment name:</string>
+    <string name="enter_name">enter name</string>
+    <string name="search_title" />
+    <string name="user_search" />
+
+    <string name="QuestionSuggestion">Ask us a Question, our community will try their best to help you</string>
+    <string name="qrcode">qrcode</string>
+    <string name="qr_code_text">QR code</string>
+
+    <string-array name="expTypes">
+        <item>Binomial Trials</item>
+        <item>Count-based Tests</item>
+        <item>Measurement Trials</item>
+        <item>Non-negative Integer Counts</item>
+    </string-array>
+
+    <string-array name="booleanTypes">
+        <item>Success</item>
+        <item>Fail</item>
+        <item>Not Binomial</item>
+    </string-array>
+
+    <string-array name="locationChoice">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+</resources>

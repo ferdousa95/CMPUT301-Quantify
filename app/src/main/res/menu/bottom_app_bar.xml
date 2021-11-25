@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/subscribe_ic"
+        android:contentDescription=""
+        android:icon="@drawable/ic_subscribe_24dp"
+        android:title="@string/subscribe"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/qr_code"
+        android:contentDescription="@string/content_description_qr_code"
+        android:icon="@drawable/ic_qr_24dp"
+        android:title="@string/qr_code"
+        app:showAsAction="always" />
+
+
+</menu>

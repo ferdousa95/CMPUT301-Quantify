@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/shrine_pink_50">
+
+    <TextView
+        android:id="@+id/MinTrialView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/trialNumber"
+        android:textColor="@color/shrine_pink_900"
+        app:layout_constraintStart_toEndOf="@id/minimumNumberTrialsText"
+        app:layout_constraintTop_toBottomOf="@id/experimentDescriptionView" />
+
+    <TextView
+        android:id="@+id/minimumNumberTrialsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/minimum_number_of_trials_text"
+        android:textColor="@color/bottom_button"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/experimentDescriptionView" />
+
+    <TextView
+        android:id="@+id/userIDView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/userid_view"
+        android:textColor="@color/shrine_pink_900"
+        app:layout_constraintStart_toEndOf="@id/userIDText"
+        app:layout_constraintTop_toBottomOf="@+id/experimentDescriptionView" />
+
+    <TextView
+        android:id="@+id/userIDText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/userid_text"
+        android:textColor="@color/bottom_button"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/experimentDescriptionView" />
+
+    <TextView
+        android:id="@+id/experimentDescriptionView"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="start"
+        android:text="@string/experiment_description_view"
+        android:textAllCaps="true"
+        android:textColor="@color/shrine_pink_900"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/quartiles"
+        android:layout_width="65dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="104dp"
+        android:text="@string/quartiles_text"
+        android:textColor="@color/shrine_pink_900"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/experimentDescriptionView" />
+
+    <TextView
+        android:id="@+id/locationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="208dp"
+        android:text="@string/location_text"
+        android:textColor="@color/bottom_button"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quartiles" />
+
+    <TextView
+        android:id="@+id/locationView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/location_view"
+        android:textColor="@color/shrine_pink_900"
+        app:layout_constraintStart_toEndOf="@+id/locationText"
+        app:layout_constraintTop_toTopOf="@+id/locationText" />
+
+    <TextView
+        android:id="@+id/mean_value"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="200dp"
+        android:text="@string/mean_view"
+        android:textColor="@color/shrine_pink_900"
+        app:layout_constraintStart_toEndOf="@id/meanView"
+        app:layout_constraintTop_toBottomOf="@+id/experimentDescriptionView" />
+
+    <TextView
+        android:id="@+id/medianView"
+        android:layout_width="58dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="232dp"
+        android:text="@string/MedianText"
+        android:textColor="@color/shrine_pink_900"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/experimentDescriptionView" />
+
+    <TextView
+        android:id="@+id/medianValue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/median_value"
+        android:textColor="@color/shrine_pink_900"
+        app:layout_constraintStart_toEndOf="@id/medianView"
+        app:layout_constraintTop_toBottomOf="@+id/mean_value" />
+
+    <TextView
+        android:id="@+id/meanView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="200dp"
+        android:text="@string/meanText"
+        android:textColor="@color/shrine_pink_900"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/experimentDescriptionView" />
+
+    <TextView
+        android:id="@+id/stdDevView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="264dp"
+        android:text="@string/std_dev_text"
+        android:textColor="@color/shrine_pink_900"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/experimentDescriptionView" />
+
+    <TextView
+        android:id="@+id/StdDevValue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/std_dev_value"
+        android:textColor="@color/shrine_pink_900"
+        app:layout_constraintStart_toEndOf="@id/stdDevView"
+        app:layout_constraintTop_toBottomOf="@+id/medianValue" />
+
+    <Button
+        android:id="@+id/QuestionButton"
+        android:layout_width="147dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="30dp"
+        android:onClick="questionForumLaunchTrial"
+        android:text="@string/question_button"
+        android:textSize="12sp"
+        app:backgroundTint="@color/shrine_pink_900"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CreateHistogramButton" />
+
+
+    <Button
+        android:id="@+id/LocationButton"
+        android:layout_width="147dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:onClick="onLocationClickedOther"
+        android:text="location"
+        android:textSize="12sp"
+        app:backgroundTint="@color/shrine_pink_900"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CreateHistogramButton" />
+
+    <Button
+        android:id="@+id/CreateHistogramButton"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:onClick="createHistogram"
+        android:text="@string/createhistogram"
+        app:backgroundTint="@color/shrine_pink_900"
+        app:layout_constraintEnd_toStartOf="@+id/ResultsOverTimeButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quartile2Text" />
+
+    <Button
+        android:id="@+id/ResultsOverTimeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:onClick="resultsOverTimeOtherClicked"
+        android:text="@string/resultsOverTime"
+        app:backgroundTint="@color/shrine_pink_900"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.289"
+        app:layout_constraintStart_toEndOf="@+id/CreateHistogramButton"
+        app:layout_constraintTop_toTopOf="@+id/CreateHistogramButton" />
+
+    <TextView
+        android:id="@+id/quartile1Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/quartile_one"
+        android:textColor="@color/shrine_pink_900"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quartiles" />
+
+    <TextView
+        android:id="@+id/quartile2Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:text="Q3"
+        android:textColor="@color/shrine_pink_900"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quartile1Text" />
+
+    <TextView
+        android:id="@+id/quartile1View"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="180dp"
+        android:layout_marginRight="180dp"
+        android:text="@string/quartile_one_view"
+        android:textColor="@color/shrine_pink_900"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/quartile1Text"
+        app:layout_constraintTop_toTopOf="@+id/quartile1Text" />
+
+    <TextView
+        android:id="@+id/quartile3View"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="180dp"
+        android:layout_marginRight="180dp"
+        android:text="@string/quartile_two_view"
+        android:textColor="@color/shrine_pink_900"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/quartile2Text"
+        app:layout_constraintTop_toBottomOf="@+id/quartile1View" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="106dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"
+        android:onClick="startTrial"
+        android:text="@string/start_button"
+        app:backgroundTint="#7E5256"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/QuestionButton"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

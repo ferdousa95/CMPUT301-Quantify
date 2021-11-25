@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:paddingLeft="25dp"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="30dp"
+    android:id="@+id/owner_card">
+
+    <TextView
+        android:id="@+id/owner_exp_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:paddingTop="10dp"
+        android:text="Experiment"
+        android:textColor="@color/gradStart"
+        android:textSize="30sp"
+        android:textStyle="italic"></TextView>
+
+    <TextView
+        android:id="@+id/owner_exp_user"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:inputType="date"
+        android:paddingTop="10dp"
+        android:text="User"
+        android:textColor="@color/gradStart"
+        android:textSize="20sp"></TextView>
+
+
+    <TextView
+        android:id="@+id/owner_exp_status"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:paddingTop="10dp"
+        android:text="Status"
+        android:textColor="#FF2D2D"
+        android:textSize="20sp"></TextView>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_end"
+            android:layout_width="152dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="15dp"
+            android:focusable="false"
+            android:text="End"
+            app:backgroundTint="@color/bottom_button" />
+
+        <Button
+            android:id="@+id/button_delete"
+            android:layout_width="151dp"
+            android:layout_height="37dp"
+            android:focusable="false"
+            android:text="Delete"
+            app:backgroundTint="@color/bottom_button" />
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

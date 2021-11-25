@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#94FEEAE6"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="Description"
+        android:textColor="@color/shrine_pink_900"
+        android:textSize="25dp"></TextView>
+
+    <EditText
+        android:id="@+id/exp_desc_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Enter description"
+        android:inputType="textPersonName" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="Minimum Trials required"
+        android:textColor="@color/shrine_pink_900"
+        android:textSize="25dp"></TextView>
+
+    <EditText
+        android:id="@+id/exp_min_trials"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Minimum Trials Required"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Location required?"
+        android:textColor="@color/shrine_pink_900"
+        android:textSize="25dp"></TextView>
+
+    <Spinner
+        android:id="@+id/exp_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Experiment Type"
+        android:textColor="@color/shrine_pink_900"
+        android:textSize="25dp"></TextView>
+
+    <Spinner
+        android:id="@+id/exp_type_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/shrine_pink_50">
+
+    <TextView
+        android:id="@+id/mTrialDescriptionView"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/experiment_description_view"
+        android:textSize="25dp"
+        android:textColor="@color/gradStart"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mTrialUserIDText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/userid_text"
+        android:textColor="@color/bottom_button"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mTrialDescriptionView" />
+
+
+    <TextView
+        android:id="@+id/mTrialMinimumNumberText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/minimum_number_of_trials_text"
+        android:textColor="@color/bottom_button"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mTrialUserIDText" />
+
+    <TextView
+        android:id="@+id/mTrialUserIDView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/userid_view"
+        android:textColor="@color/gradStart"
+        app:layout_constraintStart_toEndOf="@+id/mTrialUserIDText"
+        app:layout_constraintTop_toBottomOf="@+id/mTrialDescriptionView" />
+
+
+    <TextView
+        android:id="@+id/mMinTrialView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="67dp"
+        android:text="@string/trialNumber"
+        android:textColor="@color/gradStart"
+        app:layout_constraintStart_toEndOf="@+id/mTrialMinimumNumberText"
+        app:layout_constraintTop_toBottomOf="@+id/mTrialDescriptionView" />
+
+
+    <Button
+        android:id="@+id/mTrialGenerateQRCodeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:text="@string/generate_qr_code_button"
+        android:textSize="12sp"
+        app:backgroundTint="@color/bottom_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mTrialMinimumNumberText" />
+
+    <TextView
+        android:id="@+id/mTrialSuccessText"
+        android:layout_width="0dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/measurementDescriptionText"
+        android:textColor="@color/shrine_pink_900"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mTrialGenerateQRCodeButton" />
+
+    <Button
+        android:id="@+id/mTrialSaveButton"
+        android:layout_width="78dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="75dp"
+        android:onClick="measurementSaveClicked"
+        android:text="@string/save"
+        app:backgroundTint="@color/bottom_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/measurementEdit" />
+
+    <EditText
+        android:id="@+id/measurementEdit"
+        android:layout_width="262dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="52dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/enter_your_number_in_decimal"
+        android:inputType="numberSigned|numberDecimal"
+        android:textColor="@color/gradStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mTrialSuccessText" />
+
+    <ImageView
+        android:id="@+id/MQRImage"
+        android:layout_width="87dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mTrialDescriptionView"
+        android:src="@drawable/ic_launcher_foreground" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

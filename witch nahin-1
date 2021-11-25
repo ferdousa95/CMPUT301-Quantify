@@ -1,0 +1,182 @@
+[33mcommit e17ebfaeebe0783a22f91e5361582d6a2a24fd80[m[33m ([m[1;36mHEAD -> [m[1;32mnahin-1[m[33m)[m
+Author: NahinChowdhury <46066736+NahinChowdhury@users.noreply.github.com>
+Date:   Mon Mar 15 16:36:32 2021 +0600
+
+    first commit
+
+[33mcommit 2a456d820183652034bbfb593ca818f1a7bd89ef[m
+Merge: 00177f5 ff2a09a
+Author: NahinChowdhury <46066736+NahinChowdhury@users.noreply.github.com>
+Date:   Mon Mar 15 13:43:53 2021 +0600
+
+    Merge pull request #2 from CMPUT301W21T31/yiheng
+    
+    I tested out the code and it seems to be working fine. I am merging it with main!
+
+[33mcommit ff2a09a5d5b233e4dc1ff1253288e40c3857caeb[m[33m ([m[1;32myiheng[m[33m)[m
+Author: yi1heng <1hengfu@gmail.com>
+Date:   Sun Mar 14 13:15:32 2021 -0600
+
+    color_stroke
+
+[33mcommit 4ea29677d34ca9b023733719fa9d196df5de79fb[m
+Author: yi1heng <1hengfu@gmail.com>
+Date:   Sat Mar 13 22:39:09 2021 -0700
+
+    activity-main-ui-prototype
+
+[33mcommit a69a919a61477f996f7b4b03c46d4e122970b795[m
+Author: yi1heng <1hengfu@gmail.com>
+Date:   Thu Mar 11 15:10:01 2021 -0700
+
+    mainpage-xml-first-test
+
+[33mcommit f385d82cf64e3fe702726fe849e6a329427ea398[m
+Author: yi1heng <1hengfu@gmail.com>
+Date:   Wed Mar 10 14:22:50 2021 -0700
+
+    yiheng's branch
+
+[33mcommit 00177f551c8e66f750036f66d5362d3c72bcde76[m
+Merge: 523ad2a 44c4501
+Author: NahinChowdhury <46066736+NahinChowdhury@users.noreply.github.com>
+Date:   Tue Mar 9 02:07:30 2021 +0600
+
+    Merge pull request #1 from CMPUT301W21T31/nahin
+    
+    Created the default project files
+
+[33mcommit 523ad2a8ee85333c87a608e5a1327ea73cd4aab2[m
+Author: Halo103109 <77755054+Halo103109@users.noreply.github.com>
+Date:   Mon Mar 8 13:02:11 2021 -0700
+
+    Add files via upload
+    
+    Fixed the typo
+
+[33mcommit 44c45019461871cc8cc1124b43d7b849a0032626[m
+Author: NahinChowdhury <46066736+NahinChowdhury@users.noreply.github.com>
+Date:   Tue Mar 9 01:29:57 2021 +0600
+
+    Created the default project files
+
+[33mcommit 02726406789facb51faa0d3d191b63076a97e653[m
+Author: NahinChowdhury <46066736+NahinChowdhury@users.noreply.github.com>
+Date:   Fri Feb 26 23:44:36 2021 +0600
+
+    Fixed error on first page of Storyboard
+
+[33mcommit f10214aab575dba0b7aceef93d7cdd538e98304a[m
+Author: NahinChowdhury <46066736+NahinChowdhury@users.noreply.github.com>
+Date:   Fri Feb 26 23:35:09 2021 +0600
+
+    Made changes to Storyboard
+
+[33mcommit 3137070e5c9b32897aca8001ebadd3ffb8a24b38[m
+Author: ferdousa95 <72733638+ferdousa95@users.noreply.github.com>
+Date:   Thu Feb 25 22:15:52 2021 -0700
+
+    Add files via upload
+
+[33mcommit 9b137d6677e394de1b7e3729f09eb05aa975e6ca[m
+Author: ferdousa95 <72733638+ferdousa95@users.noreply.github.com>
+Date:   Thu Feb 25 22:15:21 2021 -0700
+
+    Delete project_UML_V2.pdf
+
+[33mcommit 195948037c7fa9d89ff1a9bdccf3557ecbdab299[m
+Author: ferdousa95 <72733638+ferdousa95@users.noreply.github.com>
+Date:   Thu Feb 25 22:15:05 2021 -0700
+
+    Delete project_UML.pdf
+
+[33mcommit 9077ddd1d71b05f3d9bfe1315c0161ea7ab52ff4[m
+Author: yhfu <26969996+yi1heng@users.noreply.github.com>
+Date:   Thu Feb 25 17:24:31 2021 -0700
+
+    Add files via upload
+
+[33mcommit d1552bf02f37a8c59b97b42eeef0eea2afe3bfd9[m
+Author: yhfu <26969996+yi1heng@users.noreply.github.com>
+Date:   Thu Feb 25 17:19:40 2021 -0700
+
+    Add Backlogs
+
+[33mcommit 6bd2f536d380b592a9631bc50448a1c27b15778e[m
+Author: Argho Roy <argho@ualberta.ca>
+Date:   Fri Feb 26 04:04:48 2021 +0600
+
+    Delete Team_301_1.pptx
+
+[33mcommit b869187a979425632847aa071f11551c06065612[m
+Author: Argho Roy <argho@ualberta.ca>
+Date:   Fri Feb 26 04:02:34 2021 +0600
+
+    Add files via upload
+
+[33mcommit 5e19a2efe8f4a3c7de20a29eb3de7b40c5fbffbe[m
+Author: ferdousa95 <72733638+ferdousa95@users.noreply.github.com>
+Date:   Wed Feb 24 23:01:43 2021 -0700
+
+    Add files via upload
+
+[33mcommit c4b9eb13458ebcdff621f59504dd4373f0944997[m
+Author: ferdousa95 <72733638+ferdousa95@users.noreply.github.com>
+Date:   Wed Feb 24 18:19:56 2021 -0700
+
+    Add files via upload
+
+[33mcommit 3f6b9465fcbe0197573b08fccf80c7e4feee870a[m
+Author: NahinChowdhury <46066736+NahinChowdhury@users.noreply.github.com>
+Date:   Fri Feb 12 00:49:26 2021 +0600
+
+    Updated tem.txt
+
+[33mcommit dc994796c3c07c4a1ff416c533012a62a69482cd[m
+Merge: aa41fe6 5d03dc3
+Author: mimjahratul <mimjahratul@gmail.com>
+Date:   Thu Feb 11 05:58:33 2021 -0700
+
+    Update team.txt
+
+[33mcommit aa41fe68ce5007ec21e0a50e27effdb6e75abd4a[m
+Author: mimjahratul <mimjahratul@gmail.com>
+Date:   Thu Feb 11 05:41:47 2021 -0700
+
+    Update team.txt
+
+[33mcommit 5d03dc3bd958b53bfd5f08d0deb3d4d9e51ee1a7[m
+Author: mimjahratul <mimjahratul@gmail.com>
+Date:   Thu Feb 11 05:41:47 2021 -0700
+
+    creating edit
+
+[33mcommit 8e28339d98ef77a120103fa070007bc654e47378[m
+Author: adit95 <ferdousadit.work@gmail.com>
+Date:   Thu Feb 11 03:31:25 2021 -0700
+
+    Changes made by Adit
+
+[33mcommit 42bb524aaf16b1ba7a8ffeb16aca5c99e040c1d0[m
+Author: Halo103109 <77755054+Halo103109@users.noreply.github.com>
+Date:   Tue Feb 9 18:50:19 2021 -0700
+
+    Update team.txt
+
+[33mcommit 9edde8b2e5eed45da30eb55d66a57d7f634cd46b[m
+Author: yhfu <26969996+yi1heng@users.noreply.github.com>
+Date:   Tue Feb 9 18:47:58 2021 -0700
+
+    Update team.txt
+
+[33mcommit d9e794f8d0ae23124b84f4a26eac61492241c4b4[m
+Author: Argho Roy <argho@ualberta.ca>
+Date:   Wed Feb 10 07:43:24 2021 +0600
+
+    Update team.txt
+
+[33mcommit 3e5b738edd3494724126a76fa7905b53315cf742[m
+Author: CMPUT301W21T31 <78832544+CMPUT301W21T31@users.noreply.github.com>
+Date:   Wed Feb 10 07:37:16 2021 +0600
+
+    Create team.txt

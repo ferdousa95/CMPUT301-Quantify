@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--    <item-->
+<!--        android:id="@+id/left_side_menu"-->
+<!--        android:icon="@drawable/ic_menu_black_24dp"-->
+<!--        android:title="@string/left_side_menu"-->
+<!--        android:contentDescription="@string/content_description_menu"-->
+<!--        app:showAsAction="ifRoom" />-->
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search_24dp"
+        android:title="@string/search"
+        android:contentDescription="@string/content_description_search"
+        android:iconTint="@color/shrine_pink_900"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/user"
+        android:icon="@drawable/ic_person_24dp"
+        android:title="@string/user"
+        android:contentDescription="@string/content_description_user"
+        android:iconTint="@color/shrine_pink_900"
+        app:showAsAction="ifRoom" />
+
+
+
+</menu>

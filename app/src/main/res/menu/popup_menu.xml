@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/experiment"
+        android:title="Experiment">
+        <menu>
+            <item
+                android:id="@+id/add"
+                android:title="Add New" />
+            <item
+                android:id="@+id/subscribed"
+                android:title="Subscribed" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/questions"
+        android:title="Questions"/>
+    <item
+        android:id="@+id/qrcodes"
+        android:title="QR codes"/>
+    <item
+        android:id="@+id/profile"
+        android:title="User Profile"/>
+    <item
+        android:id="@+id/searching"
+        android:title="Searching">
+        <menu>
+            <item
+                android:id="@+id/keyword"
+                android:title="Keyword" />
+            <item
+                android:id="@+id/users"
+                android:title="User" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/location"
+        android:title="Location"/>
+</menu>
